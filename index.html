@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherapp</title>
+</head>
+<body>
+   
+    <div class="rectangle1">
+     <div class="left">
+        <div class="search">
+            <input id="formfield" type="text" placeholder="city">
+            <button id="btn">search</button>
+
+
+        </div>
+    
+            
+        <div class="location">
+            <img src="/assets/map-marker.png" alt="location">
+            <span id="cityname">Walewale</span>,<span id="country">Ghana</span>
+        </div>
+        <div class="card">
+            <div class="degree">
+                <div><span id="temperature">20</span><span><sup>0</sup>c</span></div>
+                <img src="./assets/weather-partly-cloudy.png" alt="weather">
+            </div>
+           
+           <div class="feels">
+            <span>Feels like:</span>
+            <span id="feels">Cloudy</span>
+            </div>
+        </div>
+        <div class="variable">
+            <div class="val">
+                <span>UV Index:</span>
+                <span>0</span>
+            </div>
+            <div class="val">
+                <span>Humidity:</span>
+                <span id="humidity">0</span>
+            </div>
+            <div class="val">
+                <span>Wind speed:</span>
+                <span id="Windspeed"></span>
+                <span>0</span>
+            </div>
+            <div class="val">
+                <span>Rain probability:</span>
+                <span id="Rainprobability"></span>
+                <span>0</span>
+            </div>
+            <div class="val">
+                <span>Pressure:</span>
+                <span id="pressure"></span>
+                <span>0</span>
+            </div>
+        </div>
+        
+     </div>
+        <div class="right">
+            <div class="img">
+               
+            </div>
+        </div>
+        
+   </div>
+    <script src="main.js"></script>
+</body>
+</html>
